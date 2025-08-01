@@ -31,3 +31,4 @@ The `.gitignore` file specifies which files and directories Git should ignore. C
 5. Push the branch to your GitHub fork.
 6. Open a Pull Request to the original repo.
 7. Discuss and improve your changes as needed, then get them merged.
+-e "\n## Task Summary\nThis project demonstrates basic Git & GitHub operations." 
