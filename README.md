@@ -12,8 +12,9 @@
 
 ### 2. Explain the difference between `git pull` and `git fetch`.
 
-- `git fetch` downloads changes from the remote repository but doesn’t merge them into your local branch.
-- `git pull` does both: it fetches and then automatically merges the changes into your current local branch.
+- `git fetch` downloads the changes from the remote repository to the local repository but does not make any changes to the current working directory.
+
+- `git pull` The git pull command combines `git fetch` and `git merge` (or `git rebase`) into a single command. This allows you to fetch changes from the remote repository and automatically integrate them into the current local branch.
 
 ---
 
