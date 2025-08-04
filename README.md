@@ -56,7 +56,26 @@ git commit -m "add info.txt"
 git push --set-upstream origin feature/info
  ```
 Then go to GitHub and create a Pull Request from `feature/info` → `main`.
-8. Make your changes and commit them.
-9. Push the branch to your GitHub fork.
-10. Open a Pull Request to the original repo.
-11. Discuss and improve your changes as needed, then get them merged.
+5. Merge the PR on GitHub.
+6. Create and Merge fix/readme Branch
+```bash
+git checkout main
+git pull
+git checkout -b fix/readme
+echo -e "\n## Task Summary\nThis project demonstrates basic Git & GitHub operations." >> README.md
+git add README.md
+git commit -m "Update README with task summary"
+git push --set-upstream origin fix/readme
+```
+Then create and merge another Pull Request from `fix/readme` → `main`.
+7. Add .gitignore
+Create a .gitignore file:
+```.gitignore
+__pycache__/
+*.pyc
+```
+```bash
+git add .gitignore
+git commit -m "Add .gitignore to exclude Python cache files"
+git push
+```
