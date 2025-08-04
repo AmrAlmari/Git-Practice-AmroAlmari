@@ -47,10 +47,16 @@ git add main.py
 git commit -m "Add main.py script"
 git push origin main
  ```
-
-5. Clone the forked repo to your local machine.
-6. Create a new branch for your changes.
-7. Make your changes and commit them.
-8. Push the branch to your GitHub fork.
-9. Open a Pull Request to the original repo.
-10. Discuss and improve your changes as needed, then get them merged.
+4. Create and Push Feature Branch
+ ```bash
+git checkout -b feature/info
+echo "My name is Amro Almari. I love AI and coding." > info.txt
+git add info.txt
+git commit -m "add info.txt"
+git push --set-upstream origin feature/info
+ ```
+Then go to GitHub and create a Pull Request from `feature/info` → `main`.
+8. Make your changes and commit them.
+9. Push the branch to your GitHub fork.
+10. Open a Pull Request to the original repo.
+11. Discuss and improve your changes as needed, then get them merged.
