@@ -56,6 +56,7 @@ git commit -m "add info.txt"
 git push --set-upstream origin feature/info
  ```
 Then go to GitHub and create a Pull Request from `feature/info` → `main`.
+
 5. Merge the PR on GitHub.
 6. Create and Merge fix/readme Branch
 ```bash
