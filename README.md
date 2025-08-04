@@ -26,10 +26,12 @@ The `.gitignore` file specifies which files and directories Git should ignore. C
 
 ### 4. Describe the steps to contribute to an open-source project on GitHub.
 
-1. Fork the repository to your GitHub account.
-2. Clone the forked repo to your local machine.
-3. Create a new branch for your changes.
-4. Make your changes and commit them.
-5. Push the branch to your GitHub fork.
-6. Open a Pull Request to the original repo.
-7. Discuss and improve your changes as needed, then get them merged.
+1. Create the Repository
+- Go to Github -> New repository -> Name it: Git-Practice-AmroAlmari
+- Check "Add a README file"
+3. Clone the forked repo to your local machine.
+4. Create a new branch for your changes.
+5. Make your changes and commit them.
+6. Push the branch to your GitHub fork.
+7. Open a Pull Request to the original repo.
+8. Discuss and improve your changes as needed, then get them merged.
