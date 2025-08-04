@@ -32,7 +32,9 @@ The `.gitignore` file specifies which files and directories Git should ignore. C
   
 2. Clone the repo loacally
    
-<pre> ```bash git clone https://github.com/AmrAlmari/Git-Practice-AmroALmari.git ``` </pre>
+ ```bash
+ git clone https://github.com/AmrAlmari/Git-Practice-AmroALmari.git
+ ``` 
 
 4. Clone the forked repo to your local machine.
 5. Create a new branch for your changes.
