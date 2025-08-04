@@ -34,11 +34,17 @@ The `.gitignore` file specifies which files and directories Git should ignore. C
    
  ```bash
  git clone https://github.com/AmrAlmari/Git-Practice-AmroALmari.git
- ``` 
+ ```
+3. Create Python Script
+Create a file main.py with:
+ ```python
+ print("Hello GitHub!")
 
-4. Clone the forked repo to your local machine.
-5. Create a new branch for your changes.
-6. Make your changes and commit them.
-7. Push the branch to your GitHub fork.
-8. Open a Pull Request to the original repo.
-9. Discuss and improve your changes as needed, then get them merged.
+ ```
+
+5. Clone the forked repo to your local machine.
+6. Create a new branch for your changes.
+7. Make your changes and commit them.
+8. Push the branch to your GitHub fork.
+9. Open a Pull Request to the original repo.
+10. Discuss and improve your changes as needed, then get them merged.
