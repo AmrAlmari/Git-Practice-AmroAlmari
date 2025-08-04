@@ -68,6 +68,7 @@ git commit -m "Update README with task summary"
 git push --set-upstream origin fix/readme
 ```
 Then create and merge another Pull Request from `fix/readme` → `main`.
+
 7. Add .gitignore
 Create a .gitignore file:
 ```.gitignore
