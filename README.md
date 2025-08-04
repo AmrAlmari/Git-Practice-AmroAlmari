@@ -29,9 +29,14 @@ The `.gitignore` file specifies which files and directories Git should ignore. C
 1. Create the Repository
 - Go to Github -> New repository -> Name it: Git-Practice-AmroAlmari
 - Check "Add a README file"
-3. Clone the forked repo to your local machine.
-4. Create a new branch for your changes.
-5. Make your changes and commit them.
-6. Push the branch to your GitHub fork.
-7. Open a Pull Request to the original repo.
-8. Discuss and improve your changes as needed, then get them merged.
+  
+2. Clone the repo loacally
+~~~bash
+git clone https://github.com/AmrAlmari/Git-Practice-AmroALmari.git
+~~~
+4. Clone the forked repo to your local machine.
+5. Create a new branch for your changes.
+6. Make your changes and commit them.
+7. Push the branch to your GitHub fork.
+8. Open a Pull Request to the original repo.
+9. Discuss and improve your changes as needed, then get them merged.
