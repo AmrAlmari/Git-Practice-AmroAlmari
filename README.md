@@ -31,6 +31,7 @@ The `.gitignore` file specifies which files and directories Git should ignore. C
 - Check "Add a README file"
   
 2. Clone the repo loacally
+   
  ```bash git clone https://github.com/AmrAlmari/Git-Practice-AmroALmari.git```
 
 4. Clone the forked repo to your local machine.
