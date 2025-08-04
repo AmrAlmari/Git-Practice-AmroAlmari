@@ -41,6 +41,12 @@ Create a file main.py with:
  print("Hello GitHub!")
 
  ```
+Then push:
+ ```bash
+git add main.py
+git commit -m "Add main.py script"
+git push origin main
+ ```
 
 5. Clone the forked repo to your local machine.
 6. Create a new branch for your changes.
